@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parrallel = "tests" name="Suite">
+
+  <test thread-count="5" name="ErrorValidationTest">
+    <classes>
+      <class name="rahulshettyacadrmy.tests.ErrorValidationTest"/>
+    </classes>
+    
+    <test thread-count="5" name="ErrorValidationTest">
+    <classes>
+      <class name="rahulshettyacadrmy.tests.SubmitOrderTest"/>
+    </classes>
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

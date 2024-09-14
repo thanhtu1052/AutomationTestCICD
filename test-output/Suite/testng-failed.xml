@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SubmitOrderTest(failed)">
+    <classes>
+      <class name="rahulshettyacadrmy.tests.SubmitOrderTest">
+        <methods>
+          <include name="close"/>
+          <include name="launchApplication"/>
+          <include name="SubmitOrder" invocation-numbers="0"/>
+          <include name="OrderHistoryTest"/>
+        </methods>
+      </class> <!-- rahulshettyacadrmy.tests.SubmitOrderTest -->
+    </classes>
+  </test> <!-- SubmitOrderTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
